@@ -1,0 +1,219 @@
+# Translated by Auto Language Translation Tool of Creyox Technologies.
+# his file contains the translation of the following module:
+# 	* cr_auto_lang_translator
+#
+# Translator:
+# Auto Language Translator Tool, 2025
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cr_auto_lang_translator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08\n"
+"PO-Revision-Date: 2025-10-08\n"
+"Last-Translator: Auto Translated Terms by App\n"
+"Language-Team: Spanish / Español\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. module: cr_auto_lang_translator
+#: model:ir.actions.act_window,name:cr_auto_lang_translator.action_auto_lang_translator
+#: model:ir.model,name:cr_auto_lang_translator.model_auto_lang_translator
+#: model_terms:ir.ui.view,arch_db:cr_auto_lang_translator.auto_lang_translator_form_view
+msgid "Auto Language Translator"
+msgstr "Traductor de idiomas automático"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__id
+msgid "ID"
+msgstr "IDENTIFICACIÓN"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__is_allow_override
+msgid "If Exists then overwrite it"
+msgstr "Si existe, sobrescríbalo."
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,help:cr_auto_lang_translator.field_auto_lang_translator__is_allow_override
+msgid ""
+"It will override the translated po files if it exists in selected module."
+msgstr ""
+"Anulará los archivos po traducidos si existen en el módulo seleccionado."
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__is_existing_po_file
+msgid "Is Existing Po File"
+msgstr "¿Existe un archivo Po?"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__lang
+msgid "Language"
+msgstr "Idioma"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,help:cr_auto_lang_translator.field_auto_lang_translator__lang
+msgid "Select the language in that you want to translate the terms."
+msgstr "Seleccione el idioma en el que desea traducir los términos."
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__module_id
+msgid "App To Translate"
+msgstr "Aplicación para traducir"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,help:cr_auto_lang_translator.field_auto_lang_translator__module_id
+msgid "Select the module that you want to translate."
+msgstr "Seleccione el módulo que desea traducir."
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: cr_auto_lang_translator
+#: model:ir.ui.menu,name:cr_auto_lang_translator.menu_auto_lang_translator
+msgid "Auto Translation Tool"
+msgstr "Herramienta de traducción automática"
+
+#. module: cr_auto_lang_translator
+#: model_terms:ir.ui.view,arch_db:cr_auto_lang_translator.auto_lang_translator_form_view
+msgid ""
+"<i class=\"fa fa-warning\"/>\n"
+"                        Ensure that this option overrides the selected language translated .po files, if the module already contains\n"
+"                        the .po files."
+msgstr ""
+"<i class = \"fa fa-warning\"/>\n"
+"Asegúrese de que esta opción anule el idioma seleccionado traducido .po archivos, si el módulo ya contiene\n"
+"los archivos .po."
+
+#. module: cr_auto_lang_translator
+#: model_terms:ir.ui.view,arch_db:cr_auto_lang_translator.auto_lang_translator_form_view
+msgid "Translate"
+msgstr "Traducir"
+
+#. module: cr_auto_lang_translator
+#: model_terms:ir.ui.view,arch_db:cr_auto_lang_translator.auto_lang_translator_form_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: cr_auto_lang_translator
+#: model:ir.actions.act_window,name:cr_auto_lang_translator.action_auto_lang_translator
+#: model:ir.model,name:cr_auto_lang_translator.model_auto_lang_translator
+#: model_terms:ir.ui.view,arch_db:cr_auto_lang_translator.auto_lang_translator_form_view
+msgid "Auto Language Translator"
+msgstr "Traductor de idiomas automáticos"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__id
+msgid "ID"
+msgstr "IDENTIFICACIÓN"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__is_allow_override
+msgid "If Exists then overwrite it"
+msgstr "Si existe, sobrescríbalo."
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,help:cr_auto_lang_translator.field_auto_lang_translator__is_allow_override
+msgid ""
+"It will override the translated po files if it exists in selected module."
+msgstr ""
+"Anulará los archivos po traducidos si existen en el módulo seleccionado."
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__is_existing_po_file
+msgid "Is Existing Po File"
+msgstr "Es el archivo PO existente"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__lang
+msgid "Language"
+msgstr "Idioma"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,help:cr_auto_lang_translator.field_auto_lang_translator__lang
+msgid "Select the language in that you want to translate the terms."
+msgstr "Seleccione el idioma en que desea traducir los términos."
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__module_id
+msgid "App To Translate"
+msgstr "Aplicación para traducir"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,help:cr_auto_lang_translator.field_auto_lang_translator__module_id
+msgid "Select the module that you want to translate."
+msgstr "Seleccione el módulo que desea traducir."
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__write_uid
+msgid "Last Updated by"
+msgstr "Actualizado por última vez por"
+
+#. module: cr_auto_lang_translator
+#: model:ir.ui.menu,name:cr_auto_lang_translator.menu_auto_lang_translator
+msgid "Auto Translation Tool"
+msgstr "Herramienta de traducción automática"
+
+#. module: cr_auto_lang_translator
+#: model_terms:ir.ui.view,arch_db:cr_auto_lang_translator.auto_lang_translator_form_view
+msgid ""
+"<i class=\"fa fa-warning\"/>\n"
+"                        Ensure that this option overrides the selected language translated .po files, if the module already contains\n"
+"                        the .po files."
+msgstr ""
+"<i class = \"fa fa-warning\"/>\n"
+"Asegúrese de que esta opción anule el idioma seleccionado traducido .po archivos, si el módulo ya contiene\n"
+"los archivos .po."
+
+#. module: cr_auto_lang_translator
+#: model_terms:ir.ui.view,arch_db:cr_auto_lang_translator.auto_lang_translator_form_view
+msgid "Translate"
+msgstr "Traducir"
+
+#. module: cr_auto_lang_translator
+#: model_terms:ir.ui.view,arch_db:cr_auto_lang_translator.auto_lang_translator_form_view
+msgid "Cancel"
+msgstr "Cancelar"

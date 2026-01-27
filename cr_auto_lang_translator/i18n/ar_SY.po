@@ -1,0 +1,119 @@
+# Translated by Auto Language Translation Tool of Creyox Technologies.
+# his file contains the translation of the following module:
+# 	* cr_auto_lang_translator
+#
+# Translator:
+# Auto Language Translator Tool, 2025
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cr_auto_lang_translator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-08\n"
+"PO-Revision-Date: 2025-10-08\n"
+"Last-Translator: Auto Translated Terms by App\n"
+"Language-Team: Arabic (Syria) / الْعَرَبيّة\n"
+"Language: ar_SY\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. module: cr_auto_lang_translator
+#: model:ir.actions.act_window,name:cr_auto_lang_translator.action_auto_lang_translator
+#: model:ir.model,name:cr_auto_lang_translator.model_auto_lang_translator
+#: model_terms:ir.ui.view,arch_db:cr_auto_lang_translator.auto_lang_translator_form_view
+msgid "Auto Language Translator"
+msgstr "مترجم لغة السيارات"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__create_date
+msgid "Created on"
+msgstr "تم إنشاؤها على"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤها بواسطة"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__id
+msgid "ID"
+msgstr "بطاقة تعريف"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__is_allow_override
+msgid "If Exists then overwrite it"
+msgstr "إذا كانت موجودة ثم اكتبه"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,help:cr_auto_lang_translator.field_auto_lang_translator__is_allow_override
+msgid ""
+"It will override the translated po files if it exists in selected module."
+msgstr ""
+"وسوف يتجاوز ملفات po المترجمة إذا كانت موجودة في الوحدة النمطية المحددة."
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__is_existing_po_file
+msgid "Is Existing Po File"
+msgstr "هو ملف Po الموجود"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__lang
+msgid "Language"
+msgstr "لغة"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,help:cr_auto_lang_translator.field_auto_lang_translator__lang
+msgid "Select the language in that you want to translate the terms."
+msgstr "حدد اللغة التي تريد ترجمة المصطلحات إليها."
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__module_id
+msgid "App To Translate"
+msgstr "تطبيق للترجمة"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,help:cr_auto_lang_translator.field_auto_lang_translator__module_id
+msgid "Select the module that you want to translate."
+msgstr "حدد الوحدة التي تريد ترجمتها."
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث بتاريخ"
+
+#. module: cr_auto_lang_translator
+#: model:ir.model.fields,field_description:cr_auto_lang_translator.field_auto_lang_translator__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: cr_auto_lang_translator
+#: model:ir.ui.menu,name:cr_auto_lang_translator.menu_auto_lang_translator
+msgid "Auto Translation Tool"
+msgstr "أداة الترجمة التلقائية"
+
+#. module: cr_auto_lang_translator
+#: model_terms:ir.ui.view,arch_db:cr_auto_lang_translator.auto_lang_translator_form_view
+msgid ""
+"<i class=\"fa fa-warning\"/>\n"
+"                        Ensure that this option overrides the selected language translated .po files, if the module already contains\n"
+"                        the .po files."
+msgstr ""
+"<i class = \"fa fa-warning\"/>\n"
+"تأكد من أن هذا الخيار يتجاوز ملفات .po اللغة المحددة ، إذا كانت الوحدة تحتوي بالفعل على\n"
+"ملفات .po."
+
+#. module: cr_auto_lang_translator
+#: model_terms:ir.ui.view,arch_db:cr_auto_lang_translator.auto_lang_translator_form_view
+msgid "Translate"
+msgstr "يترجم"
+
+#. module: cr_auto_lang_translator
+#: model_terms:ir.ui.view,arch_db:cr_auto_lang_translator.auto_lang_translator_form_view
+msgid "Cancel"
+msgstr "يلغي"

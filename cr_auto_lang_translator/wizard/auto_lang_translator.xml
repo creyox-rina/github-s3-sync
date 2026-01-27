@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="auto_lang_translator_form_view" model="ir.ui.view">
+        <field name="name">auto.lang.translator.form.view</field>
+        <field name="model">auto.lang.translator</field>
+        <field name="arch" type="xml">
+            <form string="Auto Language Translator">
+                <sheet>
+                    <group>
+                        <field name="module_id" domain="[('state', '=', 'installed')]" required="1"/>
+                        <field name="lang" required="1"/>
+                        <field name="is_allow_override"/>
+                    </group>
+                    <div class="alert alert-warning" role="alert" invisible="is_allow_override == False">
+                        <i class="fa fa-warning" />
+                        Ensure that this option overrides the selected language translated .po files, if the module already contains
+                        the .po files.
+                    </div>
+                    <footer>
+                        <button name="action_translate" string="Translate" class="btn-primary" type="object"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                    </footer>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_auto_lang_translator" model="ir.actions.act_window">
+        <field name="name">Auto Language Translator</field>
+        <field name="res_model">auto.lang.translator</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    <menuitem id="menu_auto_lang_translator"
+              parent="base.menu_translation_export"
+              name="Auto Translation Tool"
+              action="action_auto_lang_translator"
+              sequence="1"
+              groups="base.group_no_one"/>
+</odoo>
